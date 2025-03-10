@@ -1,0 +1,33 @@
+:root{
+    --clr-dark:rgb(207, 187, 121);
+    --clr-light:rgb(79, 79, 196);
+    --clr-accent:rgb(81, 221, 81);
+}
+ 
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    padding: 20px;
+    line-height:2.7 ;
+    word-spacing:1.5em ;
+    font-family: 'Roboto' , sans-serif;
+    color:var(--clr-accent) ;
+    background-color:var(--clr-dark) ;
+}
+.container{
+    width:80% ;
+    margin: auto ;
+    border: 25px var(--clr-light);
+} 
+.item{
+    padding:1.5em ;
+    background-color:pink ;
+    font-weight:900 ;
+    color: var(--clr-dark);
+    border: 25px  solid var(--clr-light);
+}
